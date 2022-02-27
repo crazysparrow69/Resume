@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gideon+Roman&family=Roboto&display=swap');
+
+body { 
+  margin: 0;
+  background: url(bg2.jpg);
+  background-size: cover; 
+}
+
+.main {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+}
+
+.left {
+  width: 50%;
+  position: relative;
+}
+
+.profile {
+  height: 500px;
+  width: 500px;
+
+  position: absolute;
+  margin: auto;
+  margin-top: 20%;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+
+  border: 4px solid #c5b5bd;
+}
+
+.avatar {
+  height: 200px;
+  width: 200px;
+
+  border-radius: 150px;
+  margin-left: 150px;
+  margin-top: 100px;
+}
+
+.name {
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: normal;
+  font-family: 'Roboto', sans-serif;
+}
+
+.spec {
+  text-align: center;
+  color: #f38927;
+  font-size: 20px;
+  font-weight: normal;
+  font-family: 'Roboto', sans-serif;
+}
+
+.right {
+  width: 50%;
+  position: relative;
+}
+
+.info {
+  position: absolute;
+  margin: auto;
+  margin-top: 20%;
+  margin-right: 50%;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.table {
+  width: 100%;
+}
+
+h1 {
+  color: #dbd3d7;
+  font-weight: strong;
+  font-family: 'Gideon Roman', cursive;
+}
+
+p {
+  color: #b4a6ad;
+  font-weight: normal;
+  font-family: 'Gideon Roman', cursive;
+  font-size: 18px;
+}
+
+.column1 {
+  text-transform: uppercase;
+  color: #ebe2e6;
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+}
+
+.column2 {
+  color: #dbd2d6;
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  color: blue;
+}
+
+a:visited {
+  color: purple;
+}
+
+@media (max-width: 1080px) {
+  .main {
+    display: relative;
+  }
+
+  .left {
+    width: 100%;
+    display: absolute;
+  }
+
+  .profile {
+    margin-top: 10%;
+    margin-left: 5%;
+  }
+
+  .right {
+    width: 100%;
+    display: absolute;
+  }
+  
+  .info {
+    display: absolute;
+    width: 40%;
+    margin: auto;
+    margin-top: 5%;
+  }
+
+  .space {
+    height: 400px;
+  }
+}
